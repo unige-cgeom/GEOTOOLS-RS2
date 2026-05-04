@@ -1,70 +1,90 @@
 [
   {
+    "objectID": "info/license.html",
+    "href": "info/license.html",
+    "title": "License",
+    "section": "",
+    "text": "This repository contains two types of materials: 1. Educational content (text, figures, narrative explanations) 2. Code components (scripts, functions, notebooks, code examples)\nDifferent licenses apply to each type of material.\n\n\n\nSECTION 1 — EDUCATIONAL CONTENT (CC BY 4.0)\n\n\n\nAll narrative text, figures, diagrams, exercises, and other instructional materials in this repository are licensed under the:\nCreative Commons Attribution 4.0 International License (CC BY 4.0)\nYou are free to: - Share — copy and redistribute the material in any medium or format - Adapt — remix, transform, and build upon the material for any purpose, even commercially\nUnder the following terms: - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.\nNo additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\nFull CC BY 4.0 license text: https://creativecommons.org/licenses/by/4.0/\n\n\n\nSECTION 2 — CODE COMPONENTS (MIT LICENSE)\n\n\n\nAll code contained in this repository—whether in standalone files (e.g. in the code/ directory) or embedded in Markdown/Quarto/Jupyter notebooks—is licensed under the MIT License:\nMIT License\nCopyright (c) 2026 Florian Franziskakis, Sébastien Biasse, Grégory Giuliani\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "crumbs": [
+      "License"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Course Template using Python",
+    "title": "GEOTOOLS-RS2",
     "section": "",
     "text": "Briefly describe what the course is about."
   },
   {
-    "objectID": "index.html#welcome-to-this-new-course",
-    "href": "index.html#welcome-to-this-new-course",
-    "title": "Course Template using Python",
+    "objectID": "index.html#welcome-to-the-geotools-rs2-course",
+    "href": "index.html#welcome-to-the-geotools-rs2-course",
+    "title": "GEOTOOLS-RS2",
     "section": "",
     "text": "Briefly describe what the course is about."
   },
   {
     "objectID": "index.html#learning-objective",
     "href": "index.html#learning-objective",
-    "title": "Course Template using Python",
+    "title": "GEOTOOLS-RS2",
     "section": "Learning Objective",
     "text": "Learning Objective\nDefine what students will gain by following this course"
   },
   {
     "objectID": "index.html#course-structure",
     "href": "index.html#course-structure",
-    "title": "Course Template using Python",
+    "title": "GEOTOOLS-RS2",
     "section": "Course Structure",
     "text": "Course Structure\nInsert here a schedule and syllabus for the course"
   },
   {
     "objectID": "index.html#more-information",
     "href": "index.html#more-information",
-    "title": "Course Template using Python",
+    "title": "GEOTOOLS-RS2",
     "section": "More information",
-    "text": "More information\nAdd contact details, external links and useful resources here"
+    "text": "More information\nGEOTOOLS-RS2 is a 3 ECTS course given by the University of Geneva, as part of the Complementary Certificate of Geomatics, the Master in Environmental Sciences, and the Master in Earth Sciences.\nFor questions, please write to gregory.giuliani@unige.ch"
   },
   {
-    "objectID": "course/chapter1.html",
-    "href": "course/chapter1.html",
-    "title": "Chapter I",
-    "section": "",
-    "text": "Populate your file with course content, figures and code snippets directly.\nFor basic Markdown synthax tutorials, refer to the Quarto Docs\n\n\nTo insert figures, use the following syntax\n![UNIGE](images/unige.png)\nThis will display your image as:\n\n\n\nUNIGE logo\n\n\nNB: to make sure the caption is aligned with the logo, create a styles.css file and add the following:\nfigcaption {\n  text-align: center;\n}\nAnd reference it in your YAML header:\n---\ntitle: \"Chapter I\"\nformat:\n  html:\n    css: styles.css\n---\n\n\n\nTo insert code snippets, use the following syntax:\n\n```{python}\n#| label: fig-polar\n#| fig-cap: \"A line plot on a polar axis\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n\n\n\n\n\n\n\nThis code will be executed when compiling the documents, and the plot will be displayed below the code. If you just want to show the code snippet without executing it, you should add ““#| eval: false” :\n\n```{python}\n#| eval: false\n\n#| label: fig-polar\n#| fig-cap: \"A line plot on a polar axis\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n\n\n\nTo preview the content, you can use the “Preview” button if you are working with VS Code.\nAlternatively, if you prefer using the command line, navigate to your project and type in:\nquarto preview .\\index.qmd\nFor a guide on how to deploy the course, go to Chapter 2",
-    "crumbs": [
-      "Course",
-      "Chapter I"
-    ]
-  },
-  {
-    "objectID": "course/chapter1.html#adding-content",
-    "href": "course/chapter1.html#adding-content",
-    "title": "Chapter I",
-    "section": "",
-    "text": "Populate your file with course content, figures and code snippets directly.\nFor basic Markdown synthax tutorials, refer to the Quarto Docs\n\n\nTo insert figures, use the following syntax\n![UNIGE](images/unige.png)\nThis will display your image as:\n\n\n\nUNIGE logo\n\n\nNB: to make sure the caption is aligned with the logo, create a styles.css file and add the following:\nfigcaption {\n  text-align: center;\n}\nAnd reference it in your YAML header:\n---\ntitle: \"Chapter I\"\nformat:\n  html:\n    css: styles.css\n---\n\n\n\nTo insert code snippets, use the following syntax:\n\n```{python}\n#| label: fig-polar\n#| fig-cap: \"A line plot on a polar axis\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n\n\n\n\n\n\n\nThis code will be executed when compiling the documents, and the plot will be displayed below the code. If you just want to show the code snippet without executing it, you should add ““#| eval: false” :\n\n```{python}\n#| eval: false\n\n#| label: fig-polar\n#| fig-cap: \"A line plot on a polar axis\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n\n\n\nTo preview the content, you can use the “Preview” button if you are working with VS Code.\nAlternatively, if you prefer using the command line, navigate to your project and type in:\nquarto preview .\\index.qmd\nFor a guide on how to deploy the course, go to Chapter 2",
-    "crumbs": [
-      "Course",
-      "Chapter I"
-    ]
-  },
-  {
-    "objectID": "course/chapter2.html",
-    "href": "course/chapter2.html",
+    "objectID": "course/session2.html",
+    "href": "course/session2.html",
     "title": "Chapter II",
     "section": "",
     "text": "Once happy with how the preview looks, it is time to deploy the course on a webpage that is available to everyone, not just a local rendering.\nWe will use GitHub Actions to automatically deploy a web page based on the .qmd files we have created.\nFirst, you need to create a file:\n.github\\workflows\\publish.yml\n\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Set up Python\n        uses: actions/setup-python@v5\n        with:\n          # Use a stable version supported by most scientific wheels\n          python-version: '3.11'\n          cache: 'pip'\n\n      # If you keep a requirements.txt in the repo (recommended)\n      - name: Install Python dependencies\n        run: |\n          python3 -m pip install --upgrade pip\n          if [ -f requirements.txt ]; then\n            python3 -m pip install -r requirements.txt\n          else\n            # Fallback if no requirements.txt is present\n            python3 -m pip install jupyter nbformat ipykernel numpy matplotlib pandas\n          fi\n\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\nSecond, you need to create a requirements.txt at the root of the repository, listing all dependencies required to run your code snippets.\nYou then need to initialize the publishing process using the following command:\nquarto publish\nSelect “GitHub Pages” as the provider, and then say “Yes” when asked to publish on the given URL.\nThe deployment will now start by creating a new branch gh-pages by pushing all your material to the URL and you can see it in your browser.\nFinally, do not forget to commit your changes to the main branch.",
     "crumbs": [
       "Course",
       "Chapter II"
+    ]
+  },
+  {
+    "objectID": "course/session1.html",
+    "href": "course/session1.html",
+    "title": "Chapter I",
+    "section": "",
+    "text": "Populate your file with course content, figures and code snippets directly.\nFor basic Markdown synthax tutorials, refer to the Quarto Docs\n\n\nTo insert figures, use the following syntax\n![UNIGE](images/unige.png)\nThis will display your image as:\n\n\n\nUNIGE logo\n\n\nNB: to make sure the caption is aligned with the logo, create a styles.css file and add the following:\nfigcaption {\n  text-align: center;\n}\nAnd reference it in your YAML header:\n---\ntitle: \"Chapter I\"\nformat:\n  html:\n    css: styles.css\n---\n\n\n\nTo insert code snippets, use the following syntax:\n\n```{python}\n#| label: fig-polar\n#| fig-cap: \"A line plot on a polar axis\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n\n\n\n\n\n\n\nThis code will be executed when compiling the documents, and the plot will be displayed below the code. If you just want to show the code snippet without executing it, you should add ““#| eval: false” :\n\n```{python}\n#| eval: false\n\n#| label: fig-polar\n#| fig-cap: \"A line plot on a polar axis\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n\n\n\nTo preview the content, you can use the “Preview” button if you are working with VS Code.\nAlternatively, if you prefer using the command line, navigate to your project and type in:\nquarto preview .\\index.qmd\nFor a guide on how to deploy the course, go to Chapter 2",
+    "crumbs": [
+      "Course",
+      "Chapter I"
+    ]
+  },
+  {
+    "objectID": "course/session1.html#adding-content",
+    "href": "course/session1.html#adding-content",
+    "title": "Chapter I",
+    "section": "",
+    "text": "Populate your file with course content, figures and code snippets directly.\nFor basic Markdown synthax tutorials, refer to the Quarto Docs\n\n\nTo insert figures, use the following syntax\n![UNIGE](images/unige.png)\nThis will display your image as:\n\n\n\nUNIGE logo\n\n\nNB: to make sure the caption is aligned with the logo, create a styles.css file and add the following:\nfigcaption {\n  text-align: center;\n}\nAnd reference it in your YAML header:\n---\ntitle: \"Chapter I\"\nformat:\n  html:\n    css: styles.css\n---\n\n\n\nTo insert code snippets, use the following syntax:\n\n```{python}\n#| label: fig-polar\n#| fig-cap: \"A line plot on a polar axis\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n\n\n\n\n\n\n\nThis code will be executed when compiling the documents, and the plot will be displayed below the code. If you just want to show the code snippet without executing it, you should add ““#| eval: false” :\n\n```{python}\n#| eval: false\n\n#| label: fig-polar\n#| fig-cap: \"A line plot on a polar axis\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n\n\n\nTo preview the content, you can use the “Preview” button if you are working with VS Code.\nAlternatively, if you prefer using the command line, navigate to your project and type in:\nquarto preview .\\index.qmd\nFor a guide on how to deploy the course, go to Chapter 2",
+    "crumbs": [
+      "Course",
+      "Chapter I"
+    ]
+  },
+  {
+    "objectID": "info/use_of_AI_declaration.html",
+    "href": "info/use_of_AI_declaration.html",
+    "title": "Declaration on the use of AI",
+    "section": "",
+    "text": "The following statement is based on the Templates for declaring the use of generative artificial intelligence edited by the University of Geneva Faculty of Science, as part of the broader Directive on the Use of Generative Artificial Intelligence\nWe declare that I have used one or more generative artificial intelligence tools (e.g., ChatGPT, Gemini, Copilot, DALL·E, DeepL, etc.) for the following tasks:\nGenerating ideas or plans: Yes: We used AI (Claude) to fine-tune ideas for the exercise goals and steps, based on a human-written draft. This includes for instance asking the LLM to add suggestions on possible additional tools that could be used by students to analyze the maps.\nWriting text or content: No\nText summarization or synthesis: No\nLinguistic correction or rephrasing: No\nText translation: No\nComputer code generation:\nPartial generation: Yes: Minor edits to adapt existing chunks of code into content used in this course. This includes for example going from static functions into loops, plotting functionalities or format libraries descriptions.\nComplete generation (code produced from start to finish by the tool based on instructions): No\nCreation of synthetic data from real data: No\nData augmentation: No\nAutomated data analysis (e.g., classification, clustering, visualization): No\nGeneration of scientific illustrations or diagrams: No\nAssistance in solving a scientific problem (mathematical, physical, etc.): No\nAuthors: Florian Franziskakis, Sébastien Biass, Grégory Giuliani\nDate: March 2026",
+    "crumbs": [
+      "Declaration on the use of AI"
     ]
   }
 ]

@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://unige-cgeom.github.io/GEOTOOLS-RS2/info/license.html</loc>
+    <lastmod>2026-03-20T10:43:00.835Z</lastmod>
+  </url>
+  <url>
     <loc>https://unige-cgeom.github.io/GEOTOOLS-RS2/index.html</loc>
-    <lastmod>2026-05-04T11:12:29.156Z</lastmod>
+    <lastmod>2026-05-04T12:12:51.161Z</lastmod>
   </url>
   <url>
-    <loc>https://unige-cgeom.github.io/GEOTOOLS-RS2/course/chapter1.html</loc>
-    <lastmod>2026-05-04T11:12:29.156Z</lastmod>
+    <loc>https://unige-cgeom.github.io/GEOTOOLS-RS2/course/session2.html</loc>
+    <lastmod>2026-05-04T11:02:27.281Z</lastmod>
   </url>
   <url>
-    <loc>https://unige-cgeom.github.io/GEOTOOLS-RS2/course/chapter2.html</loc>
-    <lastmod>2026-05-04T11:12:29.156Z</lastmod>
+    <loc>https://unige-cgeom.github.io/GEOTOOLS-RS2/course/session1.html</loc>
+    <lastmod>2026-05-04T11:02:27.280Z</lastmod>
+  </url>
+  <url>
+    <loc>https://unige-cgeom.github.io/GEOTOOLS-RS2/info/use_of_AI_declaration.html</loc>
+    <lastmod>2026-03-20T10:43:00.835Z</lastmod>
   </url>
 </urlset>
