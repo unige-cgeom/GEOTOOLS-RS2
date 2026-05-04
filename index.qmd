@@ -1,14 +1,15 @@
 ---
-title: "Course Template using Python"
-subtitle: "Quarto template for complementary certificate of geomatics course"
+title: "GEOTOOLS-RS2"
+subtitle: "Towards Earth Observation Data Science"
 date: last-modified
 format:
   html:
-    title-block-banner: "#D80669"
+    toc: true
+    toc-depth: 4
 
 author: 
-  - name: "Lecturer's name"
-    orcid: 0000-0000-4577-1972
+  - name: "Grégory Giuliani"
+    orcid: 0000-0002-1825-8865
     affiliation:
       - name: "Institute for Environmental Sciences, University of Geneva"
         city: "Geneva"
