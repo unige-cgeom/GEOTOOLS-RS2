@@ -15,7 +15,7 @@ author:
         city: "Geneva"
 ---
 
-## Welcome to this new course!
+## Welcome to the GEOTOOLS-RS2 Course!
 
 Briefly describe what the course is about.
 
@@ -29,4 +29,6 @@ Insert here a schedule and syllabus for the course
 
 ## More information
  
- Add contact details, external links and useful resources here
+GEOTOOLS-RS2 is a 3 ECTS course given by the University of Geneva, as part of the [Complementary Certificate of Geomatics](https://www.unige.ch/cgeom/), the [Master in Environmental Sciences](https://www.unige.ch/muse/en), and the [Master in Earth Sciences](https://www.unige.ch/sciences/en/enseignements/formations/masters/earth). 
+
+For questions, please write to [gregory.giuliani@unige.ch](mailto:gregory.giuliani@unige.ch)
