@@ -1,0 +1,12 @@
+{
+  "hash": "682857102f3ff3581dc2d349e707ad23",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Chapter I\"\nformat:\n  html:\n    css: styles.css\n---\n\n## Adding Content\n\nPopulate your file with course content, figures and code snippets directly.\n\nFor basic Markdown synthax tutorials, refer to the [Quarto Docs](https://quarto.org/docs/authoring/markdown-basics.html)\n\n### Figures\n\nTo insert figures, use the following syntax\n\n`![UNIGE](images/unige.png)`\n\nThis will display your image as:\n\n![UNIGE logo](images/unige.png)\n\nNB: to make sure the caption is aligned with the logo, create a `styles.css` file and add the following:\n\n```css\nfigcaption {\n  text-align: center;\n}\n```\n\nAnd reference it in your YAML header:\n```yaml\n---\ntitle: \"Chapter I\"\nformat:\n  html:\n    css: styles.css\n---\n```\n### Code\nTo insert code snippets, use the following syntax:\n\n::: {#971dbf0e .cell execution_count=1}\n```` { .cell-code}\n```{{python}}\n#| label: fig-polar\n#| fig-cap: \"A line plot on a polar axis\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n````\n\n::: {.cell-output .cell-output-display}\n![](chapter1_files/figure-html/cell-2-output-1.png){width=277 height=269}\n:::\n:::\n\n\nThis code will be executed when compiling the documents, and the plot will be displayed below the code.\nIf you just want to show the code snippet without executing it, you should add \"\"#| eval: false\n\" :\n\n::: {#13fb65fd .cell execution_count=2}\n```` { .cell-code}\n```{{python}}\n#| eval: false\n\n#| label: fig-polar\n#| fig-cap: \"A line plot on a polar axis\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n````\n:::\n\n\n### Preview\nTo preview the content, you can use the \"Preview\" button if you are working with VS Code.\n\nAlternatively, if you prefer using the command line, navigate to your project and type in:\n\n```bash\nquarto preview .\\index.qmd\n```\nFor a guide on how to deploy the course, [go to Chapter 2](chapter2.qmd)\n\n",
+    "supporting": [
+      "chapter1_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
