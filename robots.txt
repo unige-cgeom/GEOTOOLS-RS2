@@ -1,0 +1,1 @@
+Sitemap: https://unige-cgeom.github.io/GEOTOOLS-RS2/sitemap.xml
