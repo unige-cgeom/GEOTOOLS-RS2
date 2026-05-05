@@ -25,6 +25,8 @@ website:
         href: index.qmd
       - text: "Course"
         href: course/session1.qmd
+      - text: "Useful resources
+        href: resources/links.qmd
   sidebar:
     - title: "Course Chapters"
       contents:
@@ -36,6 +38,3 @@ website:
       contents:
         - info/license.qmd
         - info/use_of_AI_declaration.qmd
-    - title: "Useful Resources"
-      contents:
-        - resources/links.qmd
