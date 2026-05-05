@@ -25,7 +25,7 @@ website:
         href: index.qmd
       - text: "Course"
         href: course/session1.qmd
-      - text: "Useful resources
+      - text: "Useful resources"
         href: resources/links.qmd
   sidebar:
     - title: "Course Chapters"
