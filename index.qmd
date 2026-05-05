@@ -84,6 +84,16 @@ Define what students will gain by following this course
 **13:30 - 17:00** Wrap-up & Report Writing
 :::
 
+## Beginning with the Google Earth Engine
+
+In this course, we will use the Google Earth Engine (GEE) platform to access and analyze geospatial data. GEE is a powerful cloud-based platform that allows users to process and analyze large geospatial datasets without the need for local storage or computational resources. It provides access to a vast collection of satellite imagery and geospatial datasets, as well as a suite of tools for data analysis and visualization.
+
+- Sign-up for Google Earth Engine: [https://courses.spatialthoughts.com/gee-sign-up.html](https://courses.spatialthoughts.com/gee-sign-up.html)
+- Beginner's Cookbook: [https://developers.google.com/earth-engine/tutorials/community/beginners-cookbook](https://developers.google.com/earth-engine/tutorials/community/beginners-cookbook)
+- Introduction to JavaScript for Earth Engine: [https://developers.google.com/earth-engine/tutorials/tutorial_js_01](https://developers.google.com/earth-engine/tutorials/tutorial_js_01)
+- An intro to the Earth Engine Python API: [https://developers.google.com/earth-engine/tutorials/community/intro-to-python-api](https://developers.google.com/earth-engine/tutorials/community/intro-to-python-api)
+- geemap: [https://geemap.org](https://geemap.org)
+
 ## More information
  
 GEOTOOLS-RS2 is a 3 ECTS course given by the University of Geneva, as part of the [Complementary Certificate of Geomatics](https://www.unige.ch/cgeom/), the [Master in Environmental Sciences](https://www.unige.ch/muse/en), and the [Master in Earth Sciences](https://www.unige.ch/sciences/en/enseignements/formations/masters/earth). 
