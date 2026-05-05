@@ -5,42 +5,42 @@ format:
     css: styles.css
 ---
 
-Official Google Resources
+### *Official Google Resources*
 
-Google Earth Engine: https://earthengine.google.com    
-GEE Documentation: https://developers.google.com/earth-engine/  
-GEE Tutorials: https://developers.google.com/earth-engine/tutorials
-GEE Education resources: https://developers.google.com/earth-engine/tutorials/edu
-GEE Training resources: https://developers.google.com/earth-engine/tutorials/ttt
-Getting started : https://developers.google.com/earth-engine/guides/getstarted
-Beginner’s cookbook: https://developers.google.com/earth-engine/tutorials/community/beginners-cookbook  
-GEE Guides: https://developers.google.com/earth-engine/guides
-GEE API Reference: https://developers.google.com/earth-engine/apidocs
-GEE Community: https://developers.google.com/earth-engine/tutorials
-GEE Outreach: https://www.google.com/earth/outreach/learn/introduction-to-google-earth-engine/
+- Google Earth Engine: https://earthengine.google.com    
+- GEE Documentation: https://developers.google.com/earth-engine/  
+- GEE Tutorials: https://developers.google.com/earth-engine/tutorials
+- GEE Education resources: https://developers.google.com/earth-engine/tutorials/edu
+- GEE Training resources: https://developers.google.com/earth-engine/tutorials/ttt
+- Getting started : https://developers.google.com/earth-engine/guides/getstarted
+- Beginner’s cookbook: https://developers.google.com/earth-engine/tutorials/community/beginners-cookbook  
+- GEE Guides: https://developers.google.com/earth-engine/guides
+- GEE API Reference: https://developers.google.com/earth-engine/apidocs
+- GEE Community: https://developers.google.com/earth-engine/tutorials
+- GEE Outreach: https://www.google.com/earth/outreach/learn/introduction-to-google-earth-engine/
  
 
-Other GEE tutorials & resources
+### *Other GEE tutorials & resources*
 
-Google Earth Engine - Python vs Javascript, which programming language to use? https://www.earthblox.io/blog/google-earth-engine-python-vs-javascript-which-programming-language-to-use#:~:text=JavaScript%20is%20a%20good%20choice,each%20has%20pros%20and%20cons
-https://americaview-old.ssec.wisc.edu/program-areas/education/google-earth-engine-tutorials/
-https://blog.gishub.org/earth-engine
-Curated list of Google Earth Engine resources : https://github.com/giswqs/Awesome-GEE
-An Introduction to RS for Ecologists using GEE: https://ecology.colostate.edu/google-earth-engine/
-https://www.geospatialecology.com/intro_rs_lab1/
-https://www.gears-lab.com/intro_rs_lab1/
-Google Earth Engine: A Quick Guide for Beginners https://gisgeography.com/google-earth-engine/
-https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/9309
-OpenMRV : https://openmrv.org/web/guest/w/modules/mrv/modules_1/image-mosaic-composite-creation-for-landsat-and-sentinel-2-in-google-earth-engine
+- Google Earth Engine - Python vs Javascript, which programming language to use? https://www.earthblox.io/blog/google-earth-engine-python-vs-javascript-which-programming-language-to-use#:~:text=JavaScript%20is%20a%20good%20choice,each%20has%20pros%20and%20cons
+- https://americaview-old.ssec.wisc.edu/program-areas/education/google-earth-engine-tutorials/
+- https://blog.gishub.org/earth-engine
+- Curated list of Google Earth Engine resources : https://github.com/giswqs/Awesome-GEE
+- An Introduction to RS for Ecologists using GEE: https://ecology.colostate.edu/google-earth-engine/
+- https://www.geospatialecology.com/intro_rs_lab1/
+- https://www.gears-lab.com/intro_rs_lab1/
+- Google Earth Engine: A Quick Guide for Beginners https://gisgeography.com/google-earth-engine/
+- https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/9309
+- OpenMRV : https://openmrv.org/web/guest/w/modules/mrv/modules_1/image-mosaic-composite-creation-for-landsat-and-sentinel-2-in-google-earth-engine
  
 
-Online Book on GEE
+### *Online Book on GEE*
 
-Cloud-Based Remote Sensing with Google Earth Engine : https://www.eefabook.org
+- Cloud-Based Remote Sensing with Google Earth Engine : https://www.eefabook.org
  
 
-Other general resources 
+### *Other general resources*
 
-SAR imagery : https://earthdata.nasa.gov/learn/backgrounders/what-is-sar
-Lidar imagery: https://www.americangeosciences.org/critical-issues/faq/what-lidar-and-what-it-used
-Remote sensing and Machine learning : https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10790/1079002/Machine-learning-methods-for-remote-sensing-applications-an-overview/10.1117/12.2503653.short
+- SAR imagery : https://earthdata.nasa.gov/learn/backgrounders/what-is-sar
+- Lidar imagery: https://www.americangeosciences.org/critical-issues/faq/what-lidar-and-what-it-used
+- Remote sensing and Machine learning : https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10790/1079002/Machine-learning-methods-for-remote-sensing-applications-an-overview/10.1117/12.2503653.short
