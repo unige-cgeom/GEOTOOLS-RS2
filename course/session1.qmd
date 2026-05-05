@@ -1,5 +1,5 @@
 ---
-title: "Chapter I"
+title: "Session 1"
 format:
   html:
     css: styles.css
