@@ -5,73 +5,42 @@ format:
     css: styles.css
 ---
 
-Once happy with how the preview looks, it is time to deploy the course on a webpage that is available to everyone,
-not just a local rendering.
+Official Google Resources
 
-We will use GitHub Actions to automatically deploy a web page based on the .qmd files we have created.
+Google Earth Engine: https://earthengine.google.com    
+GEE Documentation: https://developers.google.com/earth-engine/  
+GEE Tutorials: https://developers.google.com/earth-engine/tutorials
+GEE Education resources: https://developers.google.com/earth-engine/tutorials/edu
+GEE Training resources: https://developers.google.com/earth-engine/tutorials/ttt
+Getting started : https://developers.google.com/earth-engine/guides/getstarted
+Beginner’s cookbook: https://developers.google.com/earth-engine/tutorials/community/beginners-cookbook  
+GEE Guides: https://developers.google.com/earth-engine/guides
+GEE API Reference: https://developers.google.com/earth-engine/apidocs
+GEE Community: https://developers.google.com/earth-engine/tutorials
+GEE Outreach: https://www.google.com/earth/outreach/learn/introduction-to-google-earth-engine/
+ 
 
-First, you need to create a file:
+Other GEE tutorials & resources
 
- `.github\workflows\publish.yml`
+Google Earth Engine - Python vs Javascript, which programming language to use? https://www.earthblox.io/blog/google-earth-engine-python-vs-javascript-which-programming-language-to-use#:~:text=JavaScript%20is%20a%20good%20choice,each%20has%20pros%20and%20cons
+https://americaview-old.ssec.wisc.edu/program-areas/education/google-earth-engine-tutorials/
+https://blog.gishub.org/earth-engine
+Curated list of Google Earth Engine resources : https://github.com/giswqs/Awesome-GEE
+An Introduction to RS for Ecologists using GEE: https://ecology.colostate.edu/google-earth-engine/
+https://www.geospatialecology.com/intro_rs_lab1/
+https://www.gears-lab.com/intro_rs_lab1/
+Google Earth Engine: A Quick Guide for Beginners https://gisgeography.com/google-earth-engine/
+https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/9309
+OpenMRV : https://openmrv.org/web/guest/w/modules/mrv/modules_1/image-mosaic-composite-creation-for-landsat-and-sentinel-2-in-google-earth-engine
+ 
 
-```yaml
+Online Book on GEE
 
-on:
-  workflow_dispatch:
-  push:
-    branches: main
+Cloud-Based Remote Sensing with Google Earth Engine : https://www.eefabook.org
+ 
 
-name: Quarto Publish
+Other general resources 
 
-jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          # Use a stable version supported by most scientific wheels
-          python-version: '3.11'
-          cache: 'pip'
-
-      # If you keep a requirements.txt in the repo (recommended)
-      - name: Install Python dependencies
-        run: |
-          python3 -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            python3 -m pip install -r requirements.txt
-          else
-            # Fallback if no requirements.txt is present
-            python3 -m pip install jupyter nbformat ipykernel numpy matplotlib pandas
-          fi
-
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-```
-
-Second, you need to create a `requirements.txt` at the root of the repository, listing all dependencies required to run
-your code snippets.
-
-You then need to initialize the publishing process using the following command:
-
-```bash
-quarto publish
-```
-Select "GitHub Pages" as the provider, and then say "Yes" when asked to publish on the given URL.
-
-The deployment will now start by creating a new branch `gh-pages` by pushing all your material to the URL and you can see it in your browser.
-
-Finally, do not forget to commit your changes to the `main` branch.
+SAR imagery : https://earthdata.nasa.gov/learn/backgrounders/what-is-sar
+Lidar imagery: https://www.americangeosciences.org/critical-issues/faq/what-lidar-and-what-it-used
+Remote sensing and Machine learning : https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10790/1079002/Machine-learning-methods-for-remote-sensing-applications-an-overview/10.1117/12.2503653.short
