@@ -171,6 +171,13 @@
     "text": "Discussion\nRefer to the “Points for Discussion” in each part of the exercise I. You may answer with text ( a few paragraphs) and/or by adding references to scientific articles from the literature.\n\nBenefits\nXXX\n\n\nLimitations\nXXX\n\n\nPerspectives"
   },
   {
+    "objectID": "report/report.html#conclusion",
+    "href": "report/report.html#conclusion",
+    "title": "GEOTOOLS-RS2",
+    "section": "Conclusion",
+    "text": "Conclusion\nDid this course provide a satisfactory introduction to geospatial analysis with Python applied to geology ?\nDid you have any experience coding with Python before ?\nAre you likely to continue working with Python in the future ? If yes, why ? I no, why not ?\nSuggest improvements to this course."
+  },
+  {
     "objectID": "info/license.html",
     "href": "info/license.html",
     "title": "License",
