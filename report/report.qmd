@@ -37,7 +37,7 @@ XXX
 
 ### Perspectives
 
-# Conclusion
+## Conclusion
 
 Did this course provide a satisfactory introduction to geospatial analysis with Python applied to geology ?
 
