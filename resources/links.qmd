@@ -37,6 +37,7 @@ format:
 #### *Online Book on GEE*
 
 - Cloud-Based Remote Sensing with Google Earth Engine : [https://www.eefabook.org](https://www.eefabook.org)
+- Earth Engine and Geemap - Geospatial Data Science with Python: [https://book.geemap.org/](https://book.geemap.org/)
  
 
 #### *Other general resources*

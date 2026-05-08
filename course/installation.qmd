@@ -1,0 +1,19 @@
+---
+title: "Installation"
+format:
+  html:
+    css: styles.css
+---
+## Installation and setup
+Run:
+```console
+docker pull giswqs/geemap
+```
+
+and
+
+```console
+docker run -it --name 'geemap' -p 8888:8888 -v '/Users/gregorygiuliani/gis/geemap/':/home/jovyan/work giswqs/geemap:latest
+```
+
+[go to Session 1](session1.qmd)

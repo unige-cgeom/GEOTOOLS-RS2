@@ -32,6 +32,7 @@ website:
   sidebar:
     - title: "Course Chapters"
       contents:
+        - course/installation.qmd
         - course/session1.qmd
         - course/session2.qmd
         - course/session3.qmd
