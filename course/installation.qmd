@@ -16,4 +16,4 @@ and
 docker run -it --name 'geemap' -p 8888:8888 -v '/Users/gregorygiuliani/gis/geemap/':/home/jovyan/work giswqs/geemap:latest
 ```
 
-[go to Session 1](session1.qmd)
+Move to [Session 1](session1.qmd)

@@ -94,4 +94,4 @@ Alternatively, if you prefer using the command line, navigate to your project an
 ```bash
 quarto preview .\index.qmd
 ```
-For a guide on how to deploy the course, [go to Chapter 2](chapter2.qmd)
+Move to [Session 2](session2.qmd)
