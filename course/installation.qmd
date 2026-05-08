@@ -6,13 +6,13 @@ format:
 ---
 ## Installation and setup
 Run:
-```console
+```bash
 docker pull giswqs/geemap
 ```
 
 and
 
-```console
+```bash
 docker run -it --name 'geemap' -p 8888:8888 -v '/Users/gregorygiuliani/gis/geemap/':/home/jovyan/work giswqs/geemap:latest
 ```
 
